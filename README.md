@@ -14,8 +14,7 @@ In this project hides the message with in the image, text file, audio file and v
 We hide text in a text file using, ZWCs.
 ZWCs-ZWCs- In Unicode, there are specific zero-width characters (ZWC) that are used to control special entities such as Zero Width Non Joiner (e.g., ZWNJ separates two letters in special languages) and POP directional, which have no written symbol or width in digital text.
 
-![Screenshot 2022-10-27 225540](https://user-images.githubusercontent.com/54525819/198366169-164077c5-943c-4608-91f3-f5b0d8718e10.png)
-
+![Screenshot 2022-10-27 233856](https://user-images.githubusercontent.com/54525819/198366474-46dd1e30-076a-474c-9341-9824413c9b35.png)
 
 * We get its ascii value and it is incremented or decremented based on if ascii value between 32 and 64 , it is incremented by 48(ascii value for 0) else it is decremented by 48.
 * Then xor the the obtained value with 170(binary equivalent-10101010) .
